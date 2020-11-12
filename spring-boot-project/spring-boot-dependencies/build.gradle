@@ -102,7 +102,7 @@ bom {
 			]
 		}
 	}
-	library("AssertJ", "3.18.0") {
+	library("AssertJ", "3.18.1") {
 		group("org.assertj") {
 			modules = [
 				"assertj-core"
@@ -476,7 +476,7 @@ bom {
 			]
 		}
 	}
-	library("Infinispan", "11.0.4.Final") {
+	library("Infinispan", "11.0.5.Final") {
 		group("org.infinispan") {
 			imports = [
 				"infinispan-bom"
@@ -829,7 +829,7 @@ bom {
 			]
 		}
 	}
-	library("jOOQ", "3.14.1") {
+	library("jOOQ", "3.14.3") {
 		group("org.jooq") {
 			modules = [
 				"jooq",
@@ -1108,7 +1108,7 @@ bom {
 			]
 		}
 	}
-	library("Micrometer", "1.6.0") {
+	library("Micrometer", "1.6.1") {
 		group("io.micrometer") {
 			modules = [
 				"micrometer-registry-stackdriver" {
@@ -1177,7 +1177,7 @@ bom {
 			]
 		}
 	}
-	library("Netty", "4.1.53.Final") {
+	library("Netty", "4.1.54.Final") {
 		group("io.netty") {
 			imports = [
 				"netty-bom"
@@ -1318,7 +1318,7 @@ bom {
 			]
 		}
 	}
-	library("Reactor Bom", "2020.0.0") {
+	library("Reactor Bom", "2020.0.1") {
 		group("io.projectreactor") {
 			imports = [
 				"reactor-bom"
@@ -1534,7 +1534,7 @@ bom {
 			]
 		}
 	}
-	library("Spring AMQP", "2.3.0") {
+	library("Spring AMQP", "2.3.1") {
 		group("org.springframework.amqp") {
 			modules = [
 				"spring-amqp",
@@ -1554,7 +1554,7 @@ bom {
 			]
 		}
 	}
-	library("Spring Data Bom", "2020.0.0") {
+	library("Spring Data Bom", "2020.0.1") {
 		group("org.springframework.data") {
 			imports = [
 				"spring-data-bom"
@@ -1568,21 +1568,21 @@ bom {
 			]
 		}
 	}
-	library("Spring HATEOAS", "1.2.0") {
+	library("Spring HATEOAS", "1.2.1") {
 		group("org.springframework.hateoas") {
 			modules = [
 				"spring-hateoas"
 			]
 		}
 	}
-	library("Spring Integration", "5.4.0") {
+	library("Spring Integration", "5.4.1") {
 		group("org.springframework.integration") {
 			imports = [
 				"spring-integration-bom"
 			]
 		}
 	}
-	library("Spring Kafka", "2.6.2") {
+	library("Spring Kafka", "2.6.3") {
 		group("org.springframework.kafka") {
 			modules = [
 				"spring-kafka",
@@ -1627,7 +1627,7 @@ bom {
 			]
 		}
 	}
-	library("Spring Session Bom", "2020.0.0") {
+	library("Spring Session Bom", "2020.0.1") {
 		group("org.springframework.session") {
 			imports = [
 				"spring-session-bom"

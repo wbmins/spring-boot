@@ -14,22 +14,11 @@
  * limitations under the License.
  */
 
-package org.springframework.boot.testsupport.testcontainers;
+package org.test;
 
-import org.testcontainers.containers.GenericContainer;
+public class SampleApplication {
 
-/**
- * A {@link GenericContainer} for Redis.
- *
- * @author Andy Wilkinson
- * @author Madhura Bhave
- * @since 2.0.0
- */
-public class RedisContainer extends GenericContainer<RedisContainer> {
-
-	public RedisContainer() {
-		super(DockerImageNames.redis());
-		addExposedPorts(6379);
+	public static void main(String[] args) {
 	}
 
 }
